@@ -12,10 +12,10 @@ const VideoPlayer = ({ displayCountDown, src }) => {
       <div className='desc'>
         <img src={saveTheDateImg} alt='save the date' />
         <p>the countdown is on!!</p>
-        <h3> 15 December, 2023 </h3>
+        <h3> 26 October, 2024 </h3>
       </div>
       { displayCountDown && (
-        <Countdown deadline='December, 16, 2023 03:54:00 AM' />
+        <Countdown deadline='October, 26, 2024 10:31:00 PM' />
       )}
       <div className='video-responsive'>
         <iframe

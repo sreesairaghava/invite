@@ -12,7 +12,7 @@ const Live = ({ src, subtitle }) => {
       <div className='video-responsive'>
         <iframe
           id='live'
-          title='Gowtham & Vidya Wedding Ceremony Live'
+          title='Sai & Mahi Wedding Ceremony Live'
           width='640' 
           height='360'
           allowFullScreen="allowFullScreen"

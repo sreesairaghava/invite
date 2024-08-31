@@ -1,7 +1,7 @@
 .home {
   color: #fff;
   text-align: center;
-  background: rgba(0, 0, 0, .15) url('./../../assets/bg-mobile.JPG');
+  background: rgba(0, 0, 0, .15) url('./../../assets/HeroImage-Mobile.JPG');
   background-blend-mode: darken;
   height: 100vh;
   background-size: cover;
@@ -109,7 +109,7 @@
 
 @media only screen and (min-width: 1280px) {
   .home {
-    background: rgba(0, 0, 0, .15) url('./../../assets/bg-desktop.JPG');
+    background: rgba(0, 0, 0, .15) url('./../../assets/HeroImage.JPG');
     background-blend-mode: darken;
     height: 100vh;
     background-size: cover;

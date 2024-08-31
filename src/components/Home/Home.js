@@ -5,11 +5,11 @@ import './Home.css';
 const Home = () => {
   return (
     <div className='home'>
-      <p className='hashtag'>#GV</p>
+      <p className='hashtag'>#SM</p>
       <div className='text-section'>
-        <h1>Gowtham <span>weds</span> Vidya</h1>
+        <h1>Sai <span>weds</span> Mahi</h1>
         <p className='para-txt'>We're getting married on</p>
-        <p>15th December 2023</p>
+        <p>26th October 2024</p>
       </div>
     </div>
   );
