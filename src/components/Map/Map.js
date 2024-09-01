@@ -20,7 +20,7 @@ const Map = () => {
           <AddToCalendarButton
             name="Sai & Mahi Reception"
             options={['Apple','Google', "iCal|Calendar"]}
-            location="MSR Function Hall"
+            location="TTD Kalyana Mandapam, Kakinada"
             startDate="2024-10-26"
             endDate="2024-10-26"
             startTime="17:00"
@@ -44,7 +44,7 @@ const Map = () => {
           <AddToCalendarButton
             name="Sai & Mahi Wedding Ceremony"
             options={['Apple','Google', "iCal"]}
-            location="MSR Function Hall"
+            location="TTD Kalyana Mandapam, Kakinada"
             startDate="2024-10-26"
             endDate="2024-10-26"
             startTime="20:00"
