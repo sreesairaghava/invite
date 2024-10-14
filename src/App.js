@@ -9,7 +9,6 @@ import Map from './components/Map/Map';
 import Spinner from './components/Spinner/Spinner';
 import Videos from './components/Videos/Videos';
 import Live from './components/Live/Live';
-import CountdownStory from './components/CountdownStory/CountdownStory';
 
 import { analytics, db } from './firebase.config';
 
@@ -39,7 +38,7 @@ const App = () => {
     getLayoutConfig();
   }, []);
 
-  const { live, videoplayer, videos, story } = config;
+  const { live, videoplayer, videos } = config;
   return (
     <div className='app'>
       {spinner ? <Spinner /> : (
@@ -49,7 +48,6 @@ const App = () => {
           {videoplayer?.showComponent && <VideoPlayer {...videoplayer} />}
           <Videos {...videos} />
           <Intro />
-          {story?.displayStory && <CountdownStory {...story} />}
           <Map />
         </>
       )}
