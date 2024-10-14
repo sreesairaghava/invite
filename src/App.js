@@ -13,6 +13,7 @@ import Live from './components/Live/Live';
 import { analytics, db } from './firebase.config';
 
 import './App.css';
+import FloatingActionButton from './components/FAB/FloatingButton';
 
 
 const App = () => {
@@ -49,6 +50,7 @@ const App = () => {
           <Videos {...videos} />
           <Intro />
           <Map />
+          <FloatingActionButton />
         </>
       )}
     </div>
