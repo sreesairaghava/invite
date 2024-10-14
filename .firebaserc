@@ -1,7 +1,7 @@
 {
   "projects": {
-    "default": "saiwithmahi-eb0fe",
-    "prod": "saiwithmahi-eb0fe"
+    "default": "saiwithmahi-life",
+    "prod": "saiwithmahi-life"
   },
   "targets": {},
   "etags": {}
